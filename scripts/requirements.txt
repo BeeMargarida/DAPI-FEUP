@@ -1,0 +1,4 @@
+#Goodreads
+goodreads_api_client
+requests
+beautifulsoup4
