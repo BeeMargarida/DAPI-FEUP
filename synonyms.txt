@@ -28,5 +28,7 @@ Television, Televisions, TV, TVs
 pixima => pixma
 
 good => excelent amazing interesting
-love => like adore
-loved => liked adored
+love => like adore enjoy
+loved => liked adored enjoyed
+bad => awful horrible
+romance => love kiss
