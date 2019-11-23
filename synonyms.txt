@@ -32,3 +32,5 @@ love => like adore enjoy
 loved => liked adored enjoyed
 bad => awful horrible
 romance => love kiss
+football => soccer
+football => soccer, football
