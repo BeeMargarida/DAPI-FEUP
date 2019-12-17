@@ -87,6 +87,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000063 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000063">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000002"/>
+        <rdfs:label xml:lang="en">hasGenre</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000064 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000064">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000003"/>
+        <rdfs:label xml:lang="en">publishedBy</rdfs:label>
+    </ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -103,6 +123,7 @@
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000016">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">average_rating</rdfs:label>
     </DatatypeProperty>
     
@@ -112,6 +133,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000017">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">id</rdfs:label>
     </DatatypeProperty>
     
@@ -121,6 +143,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000018">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">title</rdfs:label>
     </DatatypeProperty>
     
@@ -130,6 +153,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000019">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">num_ratings</rdfs:label>
     </DatatypeProperty>
     
@@ -139,6 +163,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000020">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">num_reviews</rdfs:label>
     </DatatypeProperty>
     
@@ -148,6 +173,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000021">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">pages</rdfs:label>
     </DatatypeProperty>
     
@@ -157,6 +183,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000022">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">publish_date</rdfs:label>
     </DatatypeProperty>
     
@@ -166,6 +193,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000023">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">isbn</rdfs:label>
     </DatatypeProperty>
     
@@ -175,6 +203,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000024">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">image_url</rdfs:label>
     </DatatypeProperty>
     
@@ -184,6 +213,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000025">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">language_code</rdfs:label>
     </DatatypeProperty>
     
@@ -193,6 +223,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000026">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">description</rdfs:label>
     </DatatypeProperty>
     
@@ -202,6 +233,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000027">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000000"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">reviews_widget</rdfs:label>
     </DatatypeProperty>
     
@@ -211,6 +243,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000033">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">original_title</rdfs:label>
     </DatatypeProperty>
     
@@ -220,6 +253,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000034">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">original_publication_date</rdfs:label>
     </DatatypeProperty>
     
@@ -229,6 +263,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000035">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">books_count</rdfs:label>
     </DatatypeProperty>
     
@@ -238,6 +273,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000036">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">reviews_count</rdfs:label>
     </DatatypeProperty>
     
@@ -247,6 +283,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000037">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">ratings_count</rdfs:label>
     </DatatypeProperty>
     
@@ -256,6 +293,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000038">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">ratings_sum</rdfs:label>
     </DatatypeProperty>
     
@@ -265,6 +303,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000039">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">text_reviews_count</rdfs:label>
     </DatatypeProperty>
     
@@ -274,6 +313,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000040">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">rating_dist</rdfs:label>
     </DatatypeProperty>
     
@@ -283,6 +323,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000042">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000031"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">name</rdfs:label>
     </DatatypeProperty>
     
@@ -292,6 +333,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000043">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">gender</rdfs:label>
     </DatatypeProperty>
     
@@ -301,6 +343,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000044">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">author_ratings_count</rdfs:label>
     </DatatypeProperty>
     
@@ -310,6 +353,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000045">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">hometown</rdfs:label>
     </DatatypeProperty>
     
@@ -319,6 +363,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000046">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">born_at</rdfs:label>
     </DatatypeProperty>
     
@@ -328,6 +373,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000047">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">died_at</rdfs:label>
     </DatatypeProperty>
     
@@ -337,6 +383,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000048">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">works_count</rdfs:label>
     </DatatypeProperty>
     
@@ -346,6 +393,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000049">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">review_count</rdfs:label>
     </DatatypeProperty>
     
@@ -355,6 +403,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000050">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">author_id</rdfs:label>
     </DatatypeProperty>
     
@@ -364,6 +413,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000051">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000029"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">text</rdfs:label>
     </DatatypeProperty>
     
@@ -373,6 +423,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000052">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000029"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">date</rdfs:label>
     </DatatypeProperty>
     
@@ -382,6 +433,7 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000053">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000029"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">rating</rdfs:label>
     </DatatypeProperty>
     
@@ -391,7 +443,18 @@
 
     <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000054">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000028"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">quote_text</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000065 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OWLDataProperty_00000000000000000065">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OWLClass_00000000000000000002"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">genre_name</rdfs:label>
     </DatatypeProperty>
     
 
