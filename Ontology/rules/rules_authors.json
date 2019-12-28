@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"authors","startColumn":"B","endColumn":"B","startRow":"2","endRow":"+","comment":"","rule":"Individual: @B*\nTypes: Author\nAnnotations: rdfs:label @B*\nFacts: author_id @B*,\nname @C*,\nauthor_ratings_count @D*,\nborn_at @E*,\ndied_at @F*,\ngender @G*,\nhometown @H*,\nreviews_count @I*,\nworks_count @J*,\nisAuthorOf @A*","active":true}]}

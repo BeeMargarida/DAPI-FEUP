@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"quotes","startColumn":"B","endColumn":"B","startRow":"2","endRow":"+","comment":"","rule":"Individual: @B*\nTypes: Quote\nAnnotations: rdfs:label @B*\nFacts: quote_text @B*,\nisQuoteOf @A*","active":true}]}
