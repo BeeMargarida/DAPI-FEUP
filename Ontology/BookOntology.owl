@@ -482,19 +482,19 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/Book -->
-
-    <Class rdf:about="http://purl.obolibrary.org/obo/Book">
-        <rdfs:label xml:lang="en">Book</rdfs:label>
-    </Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/Author -->
 
     <Class rdf:about="http://purl.obolibrary.org/obo/Author">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/User"/>
         <rdfs:label xml:lang="en">Author</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Book -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/Book">
+        <rdfs:label xml:lang="en">Book</rdfs:label>
     </Class>
     
 
@@ -531,10 +531,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/Work -->
+    <!-- http://purl.obolibrary.org/obo/Reviewer -->
 
-    <Class rdf:about="http://purl.obolibrary.org/obo/Work">
-        <rdfs:label xml:lang="en">Work</rdfs:label>
+    <Class rdf:about="http://purl.obolibrary.org/obo/Reviewer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/User"/>
+        <rdfs:label xml:lang="en">Reviewer</rdfs:label>
     </Class>
     
 
@@ -547,40 +548,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/Reviewer -->
+    <!-- http://purl.obolibrary.org/obo/Work -->
 
-    <Class rdf:about="http://purl.obolibrary.org/obo/Reviewer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/User"/>
-        <rdfs:label xml:lang="en">Reviewer</rdfs:label>
+    <Class rdf:about="http://purl.obolibrary.org/obo/Work">
+        <rdfs:label xml:lang="en">Work</rdfs:label>
     </Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000061 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000061">
-        <rdfs:label xml:lang="en">lusíadas</rdfs:label>
-    </NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000062 -->
-
-    <NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000062">
-        <obo:OWLObjectProperty_00000000000000000056 rdf:resource="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000061"/>
-        <rdfs:label xml:lang="en">camões</rdfs:label>
-    </NamedIndividual>
 </rdf:RDF>
 
 
