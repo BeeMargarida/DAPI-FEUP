@@ -103,6 +103,14 @@
     
 
 
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#isPublisherOf -->
+
+    <owl:ObjectProperty rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#isPublisherOf">
+        <owl:inverseOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#publishedBy"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#isQuoteOf -->
 
     <owl:ObjectProperty rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#isQuoteOf">
@@ -1018,6 +1026,17 @@
     
 
 
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#HarperCollinsPublishers -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#HarperCollinsPublishers">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#370493"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Publishers</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Publishers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Heather -->
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Heather">
@@ -1462,6 +1481,39 @@
     
 
 
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RandomHouseBooksForYoungReaders -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RandomHouseBooksForYoungReaders">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#191139"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Books for Young Readers</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Books for Young Readers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RandomHouseModernLibrary -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RandomHouseModernLibrary">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#5297"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Modern Library</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Modern Library</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RedFox -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RedFox">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#19543"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Fox</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Fox</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RimshaSalam -->
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#RimshaSalam">
@@ -1548,6 +1600,17 @@
         <BooksOntology:wrote rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#2009-02-17"/>
         <BooksOntology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon</BooksOntology:name>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#SignetBook -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#SignetBook">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#8127"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signet Book</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signet Book</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1651,6 +1714,17 @@
         <BooksOntology:isQuoteOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#191139"/>
         <BooksOntology:quote_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Things may happen and often do to people as brainy and footsy as you</BooksOntology:quote_text>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Things may happen and often do to people as brainy and footsy as you</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Vintage -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Vintage">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#10818853"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16195,6 +16269,28 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
     
 
 
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#HarperCollinsChildren&apos;sBooks -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#HarperCollinsChildren&apos;sBooks">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#18710190"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Children&apos;s Books</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Children&apos;s Books</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Hodder&amp;Stoughton -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Hodder&amp;Stoughton">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#234225"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodder &amp; Stoughton</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodder &amp; Stoughton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#I&apos;llEatYouup! -->
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#I&apos;llEatYouup!">
@@ -16386,6 +16482,28 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:isQuoteOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#191139"/>
         <BooksOntology:quote_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Out there things can happen, and frequently do,To people as brainy and footsy as you.And when things start to happen, don&apos;t worry, don&apos;t stew.Just go right along, you&apos;ll start happening too!</BooksOntology:quote_text>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Out there things can happen, and frequently do,To people as brainy and footsy as you.And when things start to happen, don&apos;t worry, don&apos;t stew.Just go right along, you&apos;ll start happening too!</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#PenguinGroup(USA) -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#PenguinGroup(USA)">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#24213"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Group (USA)</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Group (USA)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Simon&amp;Schuster -->
+
+    <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Simon&amp;Schuster">
+        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
+        <BooksOntology:isPublisherOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#168668"/>
+        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster</BooksOntology:publisher_name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster</rdfs:label>
     </owl:NamedIndividual>
     
 
