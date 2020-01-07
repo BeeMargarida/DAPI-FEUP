@@ -26,15 +26,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000000 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OWLObjectProperty_00000000000000000000">
-        <owl:inverseOf rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#publishedBy"/>
-        <rdfs:label xml:lang="en">isPublisherOf</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#belongsToWork -->
 
     <owl:ObjectProperty rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#belongsToWork">
@@ -203,7 +194,7 @@
     <owl:DatatypeProperty rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#average_rating">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">average_rating</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -622,116 +613,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000003">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#370493"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Publishers</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Publishers</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000004">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#24213"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Group (USA)</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Group (USA)</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000005 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000005">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#5297"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Modern Library</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Modern Library</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000006 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000006">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#18710190"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Children&apos;s Books</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HarperCollins Children&apos;s Books</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000007">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#19543"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Fox</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Fox</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000008 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000008">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#234225"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodder &amp; Stoughton</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodder &amp; Stoughton</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000009">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#191139"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Books for Young Readers</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random House Books for Young Readers</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000010 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000010">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#168668"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000011 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000011">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#10818853"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000012 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OWLNamedIndividual_00000000000000000012">
-        <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Publisher"/>
-        <obo:OWLObjectProperty_00000000000000000000 rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#8127"/>
-        <BooksOntology:publisher_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signet Book</BooksOntology:publisher_name>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signet Book</rdfs:label>
-    </owl:NamedIndividual>
     
 
 
@@ -1885,7 +1766,7 @@
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#10818853">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.66</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.66</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When literature student Anastasia Steele goes to interview young entrepreneur Christian Grey, she encounters a man who is beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled to realize she wants this man and, despite his enigmatic reserve, finds she is desperate to get close to him. Unable to resist Ana’s quiet beauty, wit, and independent spirit, Grey admits he wants her, too—but on his own terms.&lt;br /&gt; &lt;br /&gt;Shocked yet thrilled by Grey’s singular erotic tastes, Ana hesitates. For all the trappings of success—his multinational businesses, his vast wealth, his loving family—Grey is a man tormented by demons and consumed by the need to control. When the couple embarks on a daring, passionately physical affair, Ana discovers Christian Grey’s secrets and explores her own dark desires.&lt;br /&gt;&lt;br /&gt;Erotic, amusing, and deeply moving, the Fifty Shades Trilogy is a tale that will obsess you, possess you, and stay with you forever.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;This book is intended for mature audiences.&lt;/b&gt;</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10818853</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX98_.jpg</BooksOntology:image_url>
@@ -1894,9 +1775,11 @@
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1632186</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76818</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=1612130291&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
-        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fifty Shades of Grey</BooksOntology:title>
+        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      Fifty Shades of Grey
+</BooksOntology:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10818853</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1906,7 +1789,7 @@
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#168668">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.98</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.98</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The novel is set during World War II, from 1942 to 1944. It mainly follows the life of Captain John Yossarian, a U.S. Army Air Forces B-25 bombardier. Most of the events in the book occur while the fictional 256th Squadron is based on the island of Pianosa, in the Mediterranean Sea, west of Italy. The novel looks into the experiences of Yossarian and the other airmen in the camp, who attempt to maintain their sanity while fulfilling their service requirements so that they may return home.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168668</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SX98_.jpg</BooksOntology:image_url>
@@ -1915,9 +1798,11 @@
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">647614</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15534</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">453</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1961</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0684833395&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
-        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Catch-22</BooksOntology:title>
+        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      Catch-22
+</BooksOntology:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">168668</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1927,7 +1812,7 @@
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#18710190">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.63</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.63</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The faction-based society that Tris Prior once believed in is shattered - fractured by violence and power struggles and scarred by loss and betrayal. So when offered a chance to explore the world past the limits she&apos;s known, Tris is ready. Perhaps beyond the fence, she and Tobias will find a simple new life together, free from complicated lies, tangled loyalties, and painful memories.&lt;br /&gt;&lt;br /&gt;But Tris&apos;s new reality is even more alarming than the one she left behind. Old discoveries are quickly rendered meaningliess. Explosive new truths change the hearts of those she loves. And once again, Tris must battle to comprehend to complexities of human nature - and of herself - while facing impossible choices about courage, allegiance, sacrifice, and love.&lt;br /&gt;&lt;br /&gt;Told from a riveting dual perspective, ALLEGIANT, by #1 &lt;i&gt;New York Times&lt;/i&gt; best-selling author Veronica Roth, brings the DIVERGENT series to a powerful conclusion while revealing the secrets of the dystopian world that has captivated millions of readers in DIVERGENT and INSURGENT.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18710190</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395582745l/18710190._SX98_.jpg</BooksOntology:image_url>
@@ -1936,9 +1821,11 @@
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">728718</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">63983</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">526</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0007524277&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
-        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allegiant</BooksOntology:title>
+        <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      Allegiant
+</BooksOntology:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18710190</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1948,7 +1835,7 @@
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#191139">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.35</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.35</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For out-starting upstarts of all ages, here is a wonderfully wise and blessedly brief graduation speech from the one and only Dr. Seuss. In his inimitable, humorous verse and pictures, he addresses the Great Balancing Act (life itself, and the ups and downs it presents) while encouraging us to find the success that lies within us.&lt;br /&gt;&lt;blockquote&gt;
   &lt;br /&gt;
   &lt;i&gt;And will you succeed?&lt;br /&gt;Yes! You will indeed!&lt;br /&gt;(98 and ¾ percent guaranteed.)&lt;/i&gt;
@@ -1961,7 +1848,7 @@
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284709</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4587</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0679805273&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Oh, The Places You&apos;ll Go!
@@ -1975,7 +1862,7 @@
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#19543">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.22</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.22</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;i&gt;One night Max puts on his wolf suit and makes mischief of one kind and another, so his mother calls him &apos;Wild Thing&apos; and sends him to bed without his supper. &lt;/i&gt;&lt;br /&gt;&lt;br /&gt;That night a forest begins to grow in Max&apos;s room and an ocean rushes by with a boat to take Max to the place where the wild things are.&lt;br /&gt;&lt;br /&gt;Max tames the wild things and crowns himself as their king, and then &lt;b&gt;the wild rumpus begins!&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;But when Max has sent the monsters to bed, and everything is quiet, he starts to feel lonely and realises it is time to sail home to the place where someone loves him best of all.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19543</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384434560l/19543._SX98_.jpg</BooksOntology:image_url>
@@ -1984,7 +1871,7 @@
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">716983</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10578</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1963</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0099408392&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Where the Wild Things Are
@@ -15862,7 +15749,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#234225">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.21</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.21</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Set in the far future amidst a sprawling feudal interstellar empire where planetary dynasties are controlled by noble houses that owe an allegiance to the imperial House Corrino, Dune tells the story of young Paul Atreides (the heir apparent to Duke Leto Atreides and heir of House Atreides) as he and his family accept control of the desert planet Arrakis, the only source of the &apos;spice&apos; melange, the most important and valuable substance in the cosmos. The story explores the complex, multi-layered interactions of politics, religion, ecology, technology, and human emotion as the forces of the empire confront each other for control of Arrakis.&lt;br /&gt;&lt;br /&gt;Published in 1965, it won the Hugo Award in 1966 and the inaugural Nebula Award for Best Novel. Dune is frequently cited as the world&apos;s best-selling sf novel.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">234225</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434908555l/234225._SX98_.jpg</BooksOntology:image_url>
@@ -15871,7 +15758,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">598915</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15723</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">604</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0340839937&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Dune
@@ -15885,7 +15772,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#24213">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.07</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.07</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;I can&apos;t explain myself, I&apos;m afraid, sir,&quot; said Alice, &quot;Because I&apos;m not myself, you see.&quot;&lt;br /&gt;&lt;br /&gt;When Alice sees a white rabbit take a watch out of its waistcoat pocket she decides to follow it, and a sequence of most unusual events is set in motion. This mini book contains the entire topsy-turvy stories of Alice&apos;s Adventures in Wonderland and Through the Looking-Glass, accompanied by practical notes and Martina Pelouso&apos;s memorable full-colour illustrations.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24213</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327872220l/24213._SX98_.jpg</BooksOntology:image_url>
@@ -15894,7 +15781,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">414440</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9294</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1872</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0451527747&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Alice&apos;s Adventures in Wonderland &amp; Through the Looking-Glass
@@ -15946,7 +15833,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
 
     <owl:NamedIndividual rdf:about="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#370493">
         <rdf:type rdf:resource="https://semanticweb.org/dapi/ontologies/2019/11/BooksOntology#Book"/>
-        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.37</BooksOntology:average_rating>
+        <BooksOntology:average_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.37</BooksOntology:average_rating>
         <BooksOntology:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Once there was a tree...and she loved a little boy.&quot;&lt;br /&gt;&lt;br /&gt;So begins a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein.&lt;br /&gt;&lt;br /&gt;Every day the boy would come to the tree to eat her apples, swing from her branches, or slide down her trunk...and the tree was happy. But as the boy grew older he began to want more from the tree, and the tree gave and gave and gave.&lt;br /&gt;&lt;br /&gt;This is a tender story, touched with sadness, aglow with consolation. Shel Silverstein has created a moving parable for readers of all ages that offers an affecting interpretation of the gift of giving and a serene acceptance of another&apos;s capacity to love in return.</BooksOntology:description>
         <BooksOntology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">370493</BooksOntology:id>
         <BooksOntology:image_url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1174210942l/370493._SX98_.jpg</BooksOntology:image_url>
@@ -15955,7 +15842,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">801232</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15919</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1964</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1964</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0060256656&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       The Giving Tree
@@ -16049,7 +15936,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">793936</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23624</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">367</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1890</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0375751513&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       The Picture of Dorian Gray
@@ -16129,7 +16016,7 @@ Dorian Gray:”It held the secret of his life, and told his story. It had taught
         <BooksOntology:num_ratings rdf:datatype="http://www.w3.org/2001/XMLSchema#string">609870</BooksOntology:num_ratings>
         <BooksOntology:num_reviews rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17468</BooksOntology:num_reviews>
         <BooksOntology:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string">320</BooksOntology:pages>
-        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1908</BooksOntology:publish_date>
+        <BooksOntology:publish_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1908</BooksOntology:publish_date>
         <BooksOntology:reviews_widget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0451528824&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000</BooksOntology:reviews_widget>
         <BooksOntology:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Anne of Green Gables
